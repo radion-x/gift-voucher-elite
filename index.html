@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Dentistry | Zoom Whitening Gift Voucher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #333333;
+            background-color: #F8F9FA;
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-section {
+            /* Replace with your high-quality hero background image URL */
+            background: linear-gradient(rgba(248, 249, 250, 0.7), rgba(248, 249, 250, 0.7)), url('https://placehold.co/1920x1080/E5E8EB/808080?text=Brighter+Smile+Background') no-repeat center center;
+            background-size: cover;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .bounce-in {
+            animation: bounceIn 1s ease-in-out;
+        }
+        @keyframes bounceIn {
+            0% { transform: scale(0.3); opacity: 0; }
+            50% { transform: scale(1.1); opacity: 1; }
+            80% { transform: scale(0.9); }
+            100% { transform: scale(1); }
+        }
+        .fade-in {
+            opacity: 0;
+            transition: opacity 0.8s ease-in-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+        }
+        .testimonial-bg {
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center py-20 px-4 md:py-40">
+        <div class="container mx-auto">
+            <h1 class="text-4xl md:text-6xl font-playfair-display text-[#333333] mb-4 bounce-in">Radiant Smiles, Perfect Gifts</h1>
+            <p class="text-lg md:text-xl text-gray-700 font-montserrat mb-8 fade-in">Give the gift of a brighter smile with Zoom Whitening.</p>
+            <button id="cta-button" class="bg-[#96B1C9] text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-700 transition duration-300 transform hover:scale-105 bounce-in">
+                PURCHASE VOUCHER
+            </button>
+        </div>
+    </header>
+
+    <!-- Gift Voucher Section -->
+    <main class="container mx-auto px-4 py-16">
+        <section id="gift-voucher-section" class="mb-20 fade-in">
+            <h2 class="text-3xl md:text-4xl text-center font-playfair-display text-gray-800 mb-8">Stuck for a gift? Give the gift of confidence!</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12">
+                <div class="md:w-1/2">
+                    <p class="text-gray-700 leading-relaxed text-lg mb-4">Treat someone special to a thoughtful, practical, and confidence-boosting gift they'll truly appreciate. Our Zoom Whitening Gift Vouchers are the perfect way to show you care.</p>
+                    <p class="text-gray-700 leading-relaxed text-lg">Whether it's for a special occasion or just to show a gesture of appreciation, our gift vouchers are a gift that will be truly appreciated by the receiver.</p>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <!-- Replace with your voucher mockup image URL -->
+                    <img src="https://placehold.co/600x400/DDE3E7/222222?text=Voucher+Mockup" alt="Zoom Whitening Gift Voucher Mockup" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Elite Dentistry Section -->
+        <section class="mb-20 fade-in">
+            <h2 class="text-3xl md:text-4xl text-center font-playfair-display text-gray-800 mb-12">The Elite Dentistry Difference</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 hover:shadow-xl fade-in">
+                    <h3 class="font-bold text-xl text-[#333333] mb-2">A Luxurious Experience</h3>
+                    <p class="text-gray-600">Our spa-inspired environment is designed for your comfort, transforming routine dental care into a personalized, calming retreat.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 hover:shadow-xl fade-in">
+                    <h3 class="font-bold text-xl text-[#333333] mb-2">State-of-the-Art Technology</h3>
+                    <p class="text-gray-600">We use cutting-edge technology to ensure the highest standard of care, from digital X-rays to advanced whitening systems.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md transition duration-300 transform hover:scale-105 hover:shadow-xl fade-in">
+                    <h3 class="font-bold text-xl text-[#333333] mb-2">Expert Team</h3>
+                    <p class="text-gray-600">Led by Dr. Angelo Economos, our team is committed to delivering a gentle, professional experience and exceptional results. </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Zoom Whitening Benefits Section -->
+        <section class="mb-20 fade-in">
+            <h2 class="text-3xl md:text-4xl text-center font-playfair-display text-gray-800 mb-12">Zoom Whitening: The Best Way to Shine</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <svg class="h-6 w-6 text-[#96B1C9] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <div>
+                            <h3 class="font-bold text-xl text-[#333333] mb-1">Immediate and Dramatic Results</h3>
+                            <p class="text-gray-600">Our in-chair whitening provides instant, brilliant results in a single, comfortable session. See a noticeable difference the moment you leave.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <svg class="h-6 w-6 text-[#96B1C9] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <div>
+                            <h3 class="font-bold text-xl text-[#333333] mb-1">Safe and Clinically Proven</h3>
+                            <p class="text-gray-600">We perform a comprehensive oral exam to ensure your gums are protected and the process is tailored for your complete safety.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <svg class="h-6 w-6 text-[#96B1C9] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <div>
+                            <h3 class="font-bold text-xl text-[#333333] mb-1">Customized for You</h3>
+                            <p class="text-gray-600">Whether you choose our in-clinic session or a convenient take-home kit, we provide personalized care to find the best whitening system for your goals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://placehold.co/600x600/DDE3E7/222222?text=Smiling+Patient+Image" alt="Smiling patient showing white teeth" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonial-bg py-16 rounded-lg fade-in">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl text-center font-playfair-display text-gray-800 mb-12">What Our Patients Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <p class="text-gray-600 italic mb-4">"I am eternally grateful to Dr. Economos who restored my mouth with his amazing dentistry and reconstructive skills. He gave me back my reason to smile."</p>
+                        <p class="font-bold text-right text-gray-800">- Happy Patient, Neutral Bay</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <p class="text-gray-600 italic mb-4">"The team at Elite Dentistry is so professional, warm, and welcoming. Dr. Angelo is an excellent dentist! Our whole family travels to see them."</p>
+                        <p class="font-bold text-right text-gray-800">- Adriana L.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <p class="text-gray-600 italic mb-4">"I've seen Cathy a few times now and cannot fault her work. She's very thorough and always goes above and beyond to help."</p>
+                        <p class="font-bold text-right text-gray-800">- Elite Dentistry Patient</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/Voucher Form Section -->
+        <section id="contact-form-section" class="bg-gray-100 p-8 md:p-16 rounded-lg shadow-inner mt-20 fade-in">
+            <h2 class="text-3xl md:text-4xl text-center font-playfair-display text-gray-800 mb-8">Ready to Give a Brighter Smile?</h2>
+            <p class="text-center text-gray-600 mb-8">Fill out the form below to purchase your gift voucher or arrange an appointment with our team.</p>
+            <form class="space-y-6 max-w-lg mx-auto">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#96B1C9] focus:ring focus:ring-[#96B1C9] focus:ring-opacity-50">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#96B1C9] focus:ring focus:ring-[#96B1C9] focus:ring-opacity-50">
+                </div>
+                <div>
+                    <label for="phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#96B1C9] focus:ring focus:ring-[#96B1C9] focus:ring-opacity-50">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#96B1C9] focus:ring focus:ring-[#96B1C9] focus:ring-opacity-50"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-[#96B1C9] text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-gray-700 transition duration-300 transform hover:scale-105">
+                    Send Inquiry
+                </button>
+            </form>
+            <p class="text-center text-sm text-gray-500 mt-4">Prefer to call? Phone: (02) 8350 5840</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#333333] text-white text-center py-6 px-4 mt-10">
+        <p class="text-sm">&copy; 2025 Elite Dentistry. All rights reserved. | 4/20 Young Street, Neutral Bay, NSW 2089 | (02) 8350 5840</p>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            // Smooth scroll for CTA button
+            $("#cta-button").on("click", function(event) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $("#contact-form-section").offset().top
+                }, 800);
+            });
+
+            // Fade-in on scroll animation
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        $(entry.target).addClass('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            $('.fade-in').each(function() {
+                observer.observe(this);
+            });
+        });
+    </script>
+</body>
+</html>
